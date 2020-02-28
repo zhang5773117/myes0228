@@ -1,5 +1,6 @@
 package com.zb.entity;
 
+//添加1
 public class Course {
     private String name;
     private String studymodel;
