@@ -12,6 +12,7 @@ import java.util.List;
 public class EsApp {
     //写完代码了
     //李四提交到李四的分支上，并合并到master的分支上
+    //张三代码也写完了， 准备提交
     public static void main(String[] args) throws Exception {
 
         ConfigurableApplicationContext run = SpringApplication.run(EsApp.class, args);
