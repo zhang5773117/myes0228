@@ -21,6 +21,7 @@ import java.util.Map;
 @Service
 public class CourseService {
 
+    //添加2
     @Autowired(required = false)
     private RestHighLevelClient restHighLevelClient;
     public List<Course> findCurseByPage(Integer index , Integer size, String key , String studymodel,Integer min , Integer max)throws Exception{
